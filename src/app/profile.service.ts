@@ -6,8 +6,8 @@ import  'rxjs/Rx';
 })
 export class ProfileService {
   private username:string;
-  private clientid ='';
-  private clientsecret='';
+  private clientid ='26daead3a990db906a05';
+  private clientsecret='89bb2323352ed0be5f4e68269dc8e5b74c12b110';
 
   constructor(private http:HttpClient) { }
 }
