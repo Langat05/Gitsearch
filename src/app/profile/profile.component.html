@@ -3,7 +3,7 @@
         <div class="card">
             <div class="card-body" style="float: right;">
                 <img class="card-img-top" src="{{profile.avatar_url}}"
-                style="border-radius: 100%;width: 15em; height:15em; float: left;" responsive>
+                    style="border-radius: 100%;width: 15em; height:15em; float: left;" responsive>
                 <div><b>Name:</b> {{profile.name}}<br><strong>Username:</strong><small>{{profile.login}}</small></div>
                 Lives in {{profile.location}}. <p><a href="{{profile.html_url}}" target="blank"
                         class="btn btn-primary">View
@@ -11,17 +11,15 @@
             </div>
         </div>
         <div class="card">
-<div class="card-body">
-    <h5 class="card-title"><b>Repositories</b></h5>
-    <div class="panel-heading" *ngFor="let repo of repos">
-        <div class="clearfix">
-            {{repo.name}}<br><a href="{{repo.html_url}}" class="btn btn-sm btn-info pull-right">view
-                this project on github</a>
+            <div class="card-body">
+                <h5 class="card-title"><b>Repositories</b></h5>
+                <div class="panel-heading" *ngFor="let repo of repos">
+                    <div class="clearfix">
+                        {{repo.name}}<br><a href="{{repo.html_url}}" class="btn btn-sm btn-info pull-right">view
+                            this project on github</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-</div>
-
-    </div>
-</div>
-
