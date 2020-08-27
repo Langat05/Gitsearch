@@ -1,1 +1,14 @@
-<p>profile works!</p>
+<div class="container" style="padding-top: 50px;">
+    <div *ngIf="profile" class="card-group" style="display: flex;">
+        <div class="card">
+            <img class="card-img-top" src="{{profile.avatar_url}}"
+                style="border-radius: 50% 50% 50% 50%;width: 10em; height:6em;" responsive>
+            <div class="card-body">
+                <div><b>Name:</b> {{profile.name}}<br><strong>Username:</strong><small>{{profile.login}}</small></div>
+                Lives in {{profile.location}}. <p><a href="{{profile.html_url}}" target="blank"
+                        class="btn btn-success">View
+                        profile on Github</a></p>
+            </div>
+        </div>
+    </div>
+</div>
