@@ -11,4 +11,20 @@
             </div>
         </div>
     </div>
+
+    
+            <div class="card-body">
+                <h5 class="card-title"><b>Repositories</b></h5>
+                <div class="panel-heading">
+                    Number of repositories: {{profile.public_repos}}
+                </div>
+                <div class="panel-heading" *ngFor="let repo of repos">
+                    <div class="clearfix">
+                        <p>{{repo.name}}</p><a href="{{repo.html_url}}" class="btn btn-sm btn-warning pull-right">view
+                            this project on github</a>
+                        </div>
+                </div>
+            </div>
+       
+
 </div>
