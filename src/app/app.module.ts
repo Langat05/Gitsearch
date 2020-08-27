@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { RepositoryComponent } from './repository/repository.component'
+import { RepositoryComponent } from './repository/repository.component';
+import { NavbarComponent } from './navbar/navbar.component'
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
-    RepositoryComponent
+    RepositoryComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

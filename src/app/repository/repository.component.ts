@@ -4,7 +4,7 @@ import { ProfileService } from '../profile.service';
 @Component({
   selector: 'app-repository',
   templateUrl: './repository.component.html',
-  styleUrls: ['./repository.component.css'],
+  styleUrls: ['./repository.component.scss'],
 })
 export class RepositoryComponent implements OnInit {
   repos: any;
