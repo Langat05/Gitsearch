@@ -5,7 +5,6 @@ import { RepositoryComponent } from './repository/repository.component';
 
 
 const routes: Routes = [
-  {path:'', component:ProfileComponent},
   {path:'users', component:ProfileComponent},
   {path:'repositories', component:RepositoryComponent},
   
