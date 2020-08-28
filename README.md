@@ -6,6 +6,8 @@ Its features includes the following:
  - Uses the Github API to perform searches on Github, and display the results to the users.
  - Users page searches for user profile strictly using the username.
 
+## Screenshot of the project
+![Screenshot from 2020-08-28 12-57-20](https://user-images.githubusercontent.com/57387935/91548880-c6b8f900-e92e-11ea-8593-4446749f4f42.png)
 ## Live Website
 Live link of the website is https://github.com/Langat05/Gitsearch
 
