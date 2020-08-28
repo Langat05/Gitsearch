@@ -1,27 +1,32 @@
-# Githubsearch
+# GITHUB SEARCH
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+## Description
+This is a web page that uses github API to search for github users using their usernames. The user is able to see the profile of the person and its corresponding repositories on github.
+Its features includes the following:
+ - Uses the Github API to perform searches on Github, and display the results to the users.
+ - Users page searches for user profile strictly using the username.
+
+## Live Website
+Live link of the website is https://github.com/Langat05/Gitsearch
 
 ## Development server
+Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies Used
+It is built using AngularJS, HTML, Bootstrap, Typscript and SCSS. The website uses components, custom directives, custom pipes, and routing modules.
 
-## Code scaffolding
+## Codebeat link
+[![codebeat badge](https://codebeat.co/badges/f5da85ab-d649-4997-bb12-c88458648648)](https://codebeat.co/projects/github-com-langat05-gitsearch-master)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# License
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## MIT License
+Copyright (c) [2020] [Langat K Justus]
 
-## Running unit tests
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-## Running end-to-end tests
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
